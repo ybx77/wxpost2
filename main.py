@@ -133,22 +133,7 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
                 "value": "{} {}".format(today, week),
                 "color": "#00FFFF"
             },
-            "city": {
-                "value": city_name,
-                "color": "#808A87"
-            },
-            "weather": {
-                "value": weather,
-                "color": "#ED9121"
-            },
-            "min_temperature": {
-                "value": min_temperature,
-                "color": "#00FF00"
-            },
-            "max_temperature": {
-                "value": max_temperature,
-                "color": "#FF6100"
-            },
+          
             "love_day": {
                 "value": love_days,
                 "color": "#87CEEB"
