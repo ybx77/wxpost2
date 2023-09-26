@@ -300,12 +300,12 @@ if __name__ == '__main__':
     user = config.user
     print('user:', user)
     # 传入省份和市获取天气信息
-    province, city = config.province, config.city
-    weather, max_temperature, min_temperature = get_weather(province, city)
+  #  province, city = config.province, config.city
+   # weather, max_temperature, min_temperature = get_weather(province, city)
     isPost = False
     # 公众号推送消息
     if datetime.now().strftime('%H:%M:%S') < config.post_Time:
-        send_message(user, accessToken, city, weather, max_temperature, min_temperature)
+    #    send_message(user, accessToken, city, weather, max_temperature, min_temperature)
         isPost = True
     # 课程提醒推送
     todayClasses = get_Today_Class()
